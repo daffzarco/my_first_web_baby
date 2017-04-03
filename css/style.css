@@ -1,0 +1,92 @@
+/* --- CSS reset --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+}
+/* --- general styles --- */
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* --- Header --- */
+header nav.col-8_sm-12 {
+  text-align: right;
+  padding: 5%;
+}
+
+header nav a {
+  text-decoration: 0;
+  box-sizing: border-box;
+  padding: 0 20px;
+  color: white;
+}
+
+/* --- Homepage --- */
+.top-banner {
+  background-image: url('../Images/salteebackground.jpg');
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.top-banner-content {
+  text-align: center;
+  margin: 10vh 30vw;
+  color: white;
+  background-color: rgba(174, 179, 214, 0.57);
+  padding: 2vh 2vw;
+  border-radius: 15px;
+}
+
+h1 .big {
+  font-size: 2rem;
+}
+
+h2 {
+  text-align: center;
+  padding: 50px;
+}
+
+.skills-title {
+  text-align: center;
+  padding: 10px;
+}
+
+.job-title {
+  text-align: center;
+}
+
+.my-skills, .experience {
+  padding: 20px;
+  margin: 25px;
+}
+
+/* --- About Section --- */
+.about-section {
+  background-color: white;
+  min-height: 70vh;
+}
+
+.about-section-content {
+  text-align: center;
+  background-color: white;
+  margin: 10% 20%;
+  padding: 5%;
+}
+
+/* --- Experience Secton ---*/
+.experience-row {
+  display: table;
+}
+
+.experience-row, .experience-row-description, .experience-row-heading {
+  padding: 1rem 0.5rem;
+}
+
+/* --- Footer --- */
+.
